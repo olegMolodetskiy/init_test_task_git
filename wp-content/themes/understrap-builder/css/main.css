@@ -1,0 +1,146 @@
+/* Scss Document */
+body .navbar {
+  padding: 28px 0 31px; }
+body .hero .row {
+  position: relative; }
+body .hero .hero-img-block {
+  text-align: right; }
+body .hero .hero-title-block {
+  position: absolute;
+  top: 148px;
+  left: 0;
+  max-width: 544px; }
+  body .hero .hero-title-block .title {
+    color: #DFE4E5;
+    font-family: 'Libre Baskerville';
+    font-size: 61.64px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    line-height: 78px;
+    margin-bottom: 59px; }
+body .hero .scroll-down-block {
+  position: absolute;
+  bottom: 30px;
+  left: 0; }
+  body .hero .scroll-down-block .btn-down {
+    color: #CACCCD;
+    font-family: 'Libre Baskerville';
+    font-size: 9.8px;
+    font-weight: bold;
+    line-height: 1.2; }
+    body .hero .scroll-down-block .btn-down span {
+      display: block;
+      margin-left: -32px;
+      margin-top: -74px;
+      transform: rotate(270deg);
+      padding-left: 12px; }
+body .vehicle-grid {
+  background: #F6F5F4;
+  padding-top: 59px;
+  margin-top: 106px; }
+  body .vehicle-grid .title-block {
+    padding-bottom: 54px; }
+    body .vehicle-grid .title-block .title {
+      color: #1F373D;
+      font-family: 'Libre Baskerville';
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 50px;
+      max-width: 493px;
+      letter-spacing: -1.1px; }
+  body .vehicle-grid .filter-item select {
+    border: none;
+    width: 100%;
+    color: #919EB1;
+    font-family: 'Assistant', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    padding: 17px 0 18px 19px;
+    box-shadow: 0 2px 25px rgba(23, 44, 51, 0.15); }
+  body .vehicle-grid .filter-button {
+    text-align: center; }
+    body .vehicle-grid .filter-button span:hover {
+      cursor: pointer; }
+    body .vehicle-grid .filter-button span {
+      width: 100%;
+      display: block;
+      padding: 18px 0 20px;
+      background: #FFCC01;
+      color: #FFFFFF;
+      font-family: "Libre Baskerville";
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: 16px; }
+  body .vehicle-grid .container-grid {
+    padding-top: 71px; }
+    body .vehicle-grid .container-grid .vehicle-item {
+      margin-bottom: 35px; }
+      body .vehicle-grid .container-grid .vehicle-item .wrap {
+        background: #fff;
+        box-shadow: 0 2px 25px rgba(23, 44, 51, 0.15); }
+        body .vehicle-grid .container-grid .vehicle-item .wrap .img-block {
+          min-height: 380px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+        body .vehicle-grid .container-grid .vehicle-item .wrap .desc-block {
+          display: flex;
+          padding: 0 0 19px 0; }
+          body .vehicle-grid .container-grid .vehicle-item .wrap .desc-block .title {
+            padding-left: 37px;
+            padding-right: 0;
+            font-family: "Libre Baskerville";
+            font-style: italic;
+            font-size: 16px;
+            color: #1F373D;
+            margin-bottom: 10px; }
+          body .vehicle-grid .container-grid .vehicle-item .wrap .desc-block .desc-items {
+            padding-right: 0;
+            padding-left: 37px;
+            font-family: 'Assistant', sans-serif;
+            font-size: 15px;
+            line-height: 11px;
+            color: #919EB1; }
+            body .vehicle-grid .container-grid .vehicle-item .wrap .desc-block .desc-items div {
+              margin-bottom: 8px; }
+            body .vehicle-grid .container-grid .vehicle-item .wrap .desc-block .desc-items span {
+              font-weight: bold; }
+          body .vehicle-grid .container-grid .vehicle-item .wrap .desc-block .desc-items div:last-child {
+            margin-bottom: 5px; }
+          body .vehicle-grid .container-grid .vehicle-item .wrap .desc-block .price {
+            padding-right: 34px;
+            font-family: "Libre Baskerville";
+            font-weight: bold;
+            font-size: 32px;
+            color: #FFCC01;
+            display: flex;
+            text-align: right;
+            flex-direction: column;
+            justify-content: flex-end; }
+            body .vehicle-grid .container-grid .vehicle-item .wrap .desc-block .price span {
+              line-height: 34px; }
+  body .vehicle-grid .load-more-block {
+    padding-top: 43px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 81px;
+    line-height: 70px; }
+    body .vehicle-grid .load-more-block .btn-load-more {
+      line-height: 12px;
+      background: #fff;
+      color: #1F373D;
+      padding: 25px 85px 25px 87px;
+      font-family: 'Assistant', sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 3px; }
+    body .vehicle-grid .load-more-block .btn-load-more:hover {
+      cursor: pointer; }
+
+.btn-main {
+  background-color: #FFCC01;
+  color: #1F373D;
+  font-family: 'Assistant', sans-serif;
+  font-size: 24px;
+  letter-spacing: -0.9px;
+  padding: 24px 169px; }
