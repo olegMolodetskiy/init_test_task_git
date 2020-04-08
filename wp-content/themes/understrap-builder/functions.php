@@ -48,10 +48,7 @@ require_once( trailingslashit( get_stylesheet_directory() ). 'inc/builder_custom
 require_once( trailingslashit( get_stylesheet_directory() ). 'inc/TGM-Plugin-Activation/class-tgm-plugin-activation.php' );
 
 require_once( trailingslashit( get_stylesheet_directory() ). 'inc/Customizer-Custom-Controls/custom-controls.php' );
-//include(get_stylesheet_directory() . 'inc/init_helper.php');
-//include(get_stylesheet_directory() . 'inc/filter_callback.php');
-//require_once(  get_stylesheet_directory() . 'inc/init_helper.php' );
-//require_once(  get_stylesheet_directory() . 'inc/filter_callback.php' );
+
 
 
 
