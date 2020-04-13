@@ -31,6 +31,9 @@ body{
 			position: absolute;
 			bottom: 30px;
 			left: 0;
+			.btn-down:hover{
+				cursor: pointer;
+			}
 			.btn-down{
 				color: #CACCCD;
 			    font-family: 'Libre Baskerville';

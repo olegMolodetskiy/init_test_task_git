@@ -149,6 +149,11 @@ $hero_image = get_field('hero_image');
 				$('#result').append(response);
 			});
 		});
+		$('.btn-down').click(function(){
+			$('html, body').animate({
+            	scrollTop: $('.vehicle-grid').offset().top
+        	}, 'slow');
+		});
 	});
 </script>
 <?php get_footer(); ?>
