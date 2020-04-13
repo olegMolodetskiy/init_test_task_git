@@ -22,6 +22,8 @@ body .hero .scroll-down-block {
   position: absolute;
   bottom: 30px;
   left: 0; }
+ body .hero .scroll-down-block .btn-down:hover {
+    cursor: pointer; }
   body .hero .scroll-down-block .btn-down {
     color: #CACCCD;
     font-family: 'Libre Baskerville';
@@ -33,6 +35,9 @@ body .hero .scroll-down-block {
       margin-left: -32px;
       margin-top: -74px;
       transform: rotate(270deg);
+	  -webkit-transform: rotate(270deg);
+	  -moz-transform: rotate(270deg);
+	  -o-transform: rotate(270deg);
       padding-left: 12px; }
 body .vehicle-grid {
   background: #F6F5F4;
